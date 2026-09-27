@@ -71,6 +71,3 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/pace_of_life_analy
 ```
 
 Hoặc mở trực tiếp `notebooks/pace_of_life_analysis.ipynb` trong VSCode/Jupyter và chạy toàn bộ (Run All).
-
-Kết quả (bảng số liệu, biểu đồ, kết luận) được trình bày chi tiết trong
-[`report/pace_of_life_report.md`](report/pace_of_life_report.md).
