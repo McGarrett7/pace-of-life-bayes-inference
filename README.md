@@ -38,12 +38,10 @@ Project/
 ├── notebooks/
 │   └── pace_of_life_analysis.ipynb   # Notebook phân tích đầy đủ
 ├── figures/                      # Biểu đồ xuất ra từ notebook
-├── report/
-│   └── pace_of_life_report.md    # Báo cáo kết quả & kết luận
 └── README.md
 ```
 
-## 5. Phương pháp phân tích
+<!--## 5. Phương pháp phân tích
 
 Báo cáo (`report/pace_of_life_report.md`) được tổ chức theo 4 phần: (i) mô tả dữ liệu, (ii) quá trình mô
 hình hoá dữ liệu, (iii) quá trình ước lượng Bayes, (iv) đánh giá kết quả và biện luận trả lời câu hỏi
@@ -62,8 +60,8 @@ nghiên cứu. Notebook thực hiện các bước sau:
    nghiệm, chẩn đoán hội tụ bằng **Gelman–Rubin R-hat** và trace plot, tổng hợp khoảng tin cậy Bayes
    (credible interval) và xác suất hậu nghiệm `P(β>0|data)` cho từng hệ số.
 7. Đối chiếu kết quả tần suất và Bayes, kết luận trả lời câu hỏi nghiên cứu và nêu giới hạn phân tích.
-
-## 6. Cách chạy
+-->
+## 5. Cách chạy
 
 ```powershell
 pip install pandas numpy scipy statsmodels matplotlib seaborn jupyter nbformat nbconvert ipykernel
